@@ -54,7 +54,7 @@ It was discovered that the company still awaits payment for over 50% ($317,000) 
 Of those patients already billed, the company still waits for about 44% of payments to be recieved still after billing. 
 - This can occur from billing errors, patients not making payments, waiting tranfer balances, and/or more.
 
-That means  currently, the company's sucessful payment ratio is roughly 1.12:2
+That means  currently, the company's sucessful payment ratio is roughly = '1.12 : 2'
 
 - 55% of all invoices issued in the US are paid late with 22% of business owners not expecting late payment incidents to cease in the near future
 - This can dampen financial stability and can create perminently lost funds overtime (more expenses = more profit lost)
