@@ -19,7 +19,8 @@ Patient Responsibility: The amount the patient owes (if applicable) for that DOS
 __________________________________
 
 Why We Need This:
-This data is crucial for us to understand exactly what has gone out (billed) and what has come in (paid). Additionally, our CEO specifically wants to know what each patient technically owes us each month this year, considering we haven't sent out patient bills yet.
+- This data is crucial for us to understand exactly what has gone out (billed) and what has come in (paid).
+- Additionally, our CEO specifically wants to know what each patient technically owes us each month this year, considering we haven't sent out patient bills yet.
 
 Thanks so much for your help!
 
@@ -43,14 +44,14 @@ ______________
 
 Conclusions
 _______________
-Starting with roughly 15k rows and 25 columns of information, we isolated CGM patients only
-This resulted in 244 rows and 14 columns of key data for the project
+Starting with roughly 15k rows and 25 columns of information, we isolated CGM patients only.
+This resulted in 244 rows and 14 columns of key data for the project.
 I created a function for calculating patient responsibility following basic statistics as follows:
 - Patient Responsibility = Invoice Allow Amount - Infoice Detail Payments
-I then began to transform into more comprehendable information after the codes completion so that these insights is made transparent to all departments (Technical/Non-Technical teams)
-Next, I created a new model to then organize the patient responsibility over a timeline. This timeline ran month-by-month for each of the company's CGM patients
+I then began to transform into more comprehendable information after the codes completion so that these insights is made transparent to all departments (Technical/Non-Technical teams).
+Next, I created a new model to then organize the patient responsibility over a timeline. This timeline ran month-by-month for each of the company's CGM patients.
 I created 'Totals' for the financial values for quicker analysis of the rows of information on both sheets.
-Finally, I ran the code that would export the manipulated data into a CSV file. I would then work inside this CSV file in Excel using Pivot Tables to make the data more clear
+Finally, I ran the code that would export the manipulated data into a CSV file. I would then work inside this CSV file in Excel using Pivot Tables to make the data more clear.
 
 
 - It was discovered that the company still awaits payment for over 50% of their expected funds in Patient Responsibility assets alone
@@ -59,11 +60,11 @@ Finally, I ran the code that would export the manipulated data into a CSV file. 
 - That means that currently, the company's sucessful payment ratio is about 1:2
 
 Calculated Totals:
-Patient Responsibility Total = 307k
-*Invoice Detail Charge Total = 602k*
-Invoice Detail Allow Total = 562k
-*Invoice Detail Payments = 245k*
-*Invoice Deetail Balance = 201k*
+Patient Responsibility Total = 307k_,
+*Invoice Detail Charge Total = 602k*_,
+Invoice Detail Allow Total = 562k_,
+*Invoice Detail Payments = 245k*_,
+*Invoice Deetail Balance = 201k*_,
 
 # Recommendations/Next-Steps:
 
