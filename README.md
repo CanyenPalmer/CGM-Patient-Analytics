@@ -3,19 +3,13 @@ Our CEO needs some in-depth research on our CGM patient payments. We're looking 
 
 Could you please put together an Excel sheet with the following information for each patient on the CGM Sheet?
 _________________________
-- Payment Details Needed Per Patient:
+Payment Details Needed Per Patient:
 Date of Service (DOS): For each individual service date.
-
 Amount Billed: What was originally billed for that DOS.
-
 Insurance: Which insurance company was billed.
-
 Amount Paid: How much was paid by insurance or the patient for that DOS.
-
 Amount Denied: Any portion of the claim that was denied for that DOS.
-
 Patient Responsibility: The amount the patient owes (if applicable) for that DOS.
-
 __________________________________
 
 Why We Need This:
