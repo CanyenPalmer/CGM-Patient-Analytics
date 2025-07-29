@@ -65,7 +65,7 @@ Calculated Totals:
 - *Invoice Detail Charge Total = 602k*
 - Invoice Detail Allow Total = 562k
 - Invoice Detail Payments = 245k
-- *Invoice Deetail Balance = 201k*
+- *Invoice Detail Balance = 201k*
 
 # Recommendations/Next-Steps:
 
@@ -73,7 +73,7 @@ Calculated Totals:
 2) Another option would be to analyze the specific invoices that have the highest 'Charge' Amount and the lowest 'Payments' Amount to isolate the "heavy-hitters" first
 - This might discover outliers in the data, but this can also be done through statistical methods like regression analysis and hypothesis testing
 3) Identify what patients have a recurring 'Patient Responsibility' amount over a long period time and compare this to patients both similar and opposite of these characteristics
-- This might identify the patients that create what acts as a flat-rate in owed expenses throughout their payment history with the company
+- This might identify the patients who create what acts as a flat-rate in owed expenses throughout their payment history with the company
 
 
 
