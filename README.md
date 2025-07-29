@@ -14,7 +14,7 @@ __________________________________
 
 Why We Need This:
 - This data is crucial for us to understand exactly what has gone out (billed) and what has come in (paid).
-- Additionally, our CEO specifically wants to know what each patient technically owes us each month this year, considering we haven't sent out patient bills yet.
+- Additionally, our CEO specifically wants to know what each patient technically owes us each month this year, considering we haven't sent out every patient's bill yet.
 
 Thanks so much for your help!
 
