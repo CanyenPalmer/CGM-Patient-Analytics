@@ -38,20 +38,23 @@ ______________
 
 Conclusions
 _______________
-Starting with roughly 15k rows and 25 columns of information, we isolated CGM patients only.
-This resulted in 244 rows and 14 columns of key data for the project.
-I created a function for calculating patient responsibility following basic statistics as follows:
-- Patient Responsibility = Invoice Allow Amount - Infoice Detail Payments
-I then began to transform into more comprehendable information after the codes completion so that these insights is made transparent to all departments (Technical/Non-Technical teams).
-Next, I created a new model to then organize the patient responsibility over a timeline. This timeline ran month-by-month for each of the company's CGM patients.
-I created 'Totals' for the financial values for quicker analysis of the rows of information on both sheets.
-Finally, I ran the code that would export the manipulated data into a CSV file. I would then work inside this CSV file in Excel using Pivot Tables to make the data more clear.
+- Starting with roughly 15k rows and 25 columns of information, we isolated CGM patients only.
+- This resulted in 244 rows and 14 columns of key data for the project.
+- I created a function for calculating patient responsibility following basic statistics as follows:
+
+Patient Responsibility = Invoice Allow Amount - Infoice Detail Payments
+
+- I then began to transform into more comprehendable information after the codes completion so that these insights is made transparent to all departments (Technical/Non-Technical teams).
+- Next, I created a new model to then organize the patient responsibility over a timeline. This timeline ran month-by-month for each of the company's CGM patients.
+- I created 'Totals' for the financial values for quicker analysis of the rows of information on both sheets.
+- Finally, I ran the code that would export the manipulated data into a CSV file. I would then work inside this CSV file in Excel using Pivot Tables to make the data more clear.
 
 
-- It was discovered that the company still awaits payment for over 50% of their expected funds in Patient Responsibility assets alone
+It was discovered that the company still awaits payment for over 50% of their expected funds in Patient Responsibility assets alone.
+That means that currently, the company's sucessful payment ratio is about 1:2.
 - 55% of all invoices issued in the US are paid late with 22% of business owners not expecting late payment incidents to cease in the near future
 - This can dampen financial stability and can create perminently lost funds overtime (more expenses = more profit lost)
-- That means that currently, the company's sucessful payment ratio is about 1:2
+
 
 Calculated Totals:
 - Patient Responsibility Total = 307k
