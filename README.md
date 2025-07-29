@@ -57,7 +57,7 @@ That means that currently, the company's sucessful payment ratio is about 1:2.
 
 
 Calculated Totals:
-- Patient Responsibility Total = 307k
+- Patient Responsibility Total = 317k
 - *Invoice Detail Charge Total = 602k*
 - Invoice Detail Allow Total = 562k
 - *Invoice Detail Payments = 245k*
