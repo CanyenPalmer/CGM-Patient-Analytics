@@ -60,11 +60,11 @@ Finally, I ran the code that would export the manipulated data into a CSV file. 
 - That means that currently, the company's sucessful payment ratio is about 1:2
 
 Calculated Totals:
-Patient Responsibility Total = 307k_,
-*Invoice Detail Charge Total = 602k*_,
-Invoice Detail Allow Total = 562k_,
-*Invoice Detail Payments = 245k*_,
-*Invoice Deetail Balance = 201k*_,
+- Patient Responsibility Total = 307k
+- *Invoice Detail Charge Total = 602k*
+- Invoice Detail Allow Total = 562k
+- *Invoice Detail Payments = 245k*
+- *Invoice Deetail Balance = 201k*
 
 # Recommendations/Next-Steps:
 
