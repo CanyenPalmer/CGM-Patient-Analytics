@@ -71,7 +71,7 @@ Calculated Totals:
 
 1) One option would be to continue to expand on more potential insights through accuracy testing, predictive modeling, visualization (charts, graphs, etc.), and/or more
 2) Another option would be to analyze the specific invoices that have the highest 'Charge' Amount and the lowest 'Payments' Amount to isolate the "heavy-hitters" first
-- This might discover outliers in the data, but this can also be done through statistical methods like z-score
+- This might discover outliers in the data, but this can also be done through statistical methods like regression analysis and hypothesis testing
 3) Identify what patients have a recurring 'Patient Responsibility' amount over a long period time and compare this to patients both similar and opposite of these characteristics
 - This might identify the patients that create what acts as a flat-rate in owed expenses throughout their payment history with the company
 
