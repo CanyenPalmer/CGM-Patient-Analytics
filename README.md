@@ -51,7 +51,7 @@ Patient Responsibility = Invoice Allow Amount - Infoice Detail Payments
 
 
 It was discovered that the company still awaits payment for over 50% ($317,000) of their expected funds in Patient Responsibility assets alone.
-Of those patients already billed, the company still waits for about 44% of payments to be recieved still after billing. 
+Out of all CGM patiens, the company needs 44% ($255,000) of payments to be recieved even after the patient has been billed. 
 - This can occur from billing errors, patients not making payments, waiting tranfer balances, and/or more.
 
 That means  currently, the company's sucessful payment ratio is roughly = '56:100'
