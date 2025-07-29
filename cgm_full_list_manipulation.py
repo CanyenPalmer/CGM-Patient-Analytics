@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the Excel file and sheet
-file_path = r"C:\Users\kyleh\Desktop\CGM_Project\CGM Analytics.xlsx"  # Adjust if needed
+file_path = r"C:\Users\jordanspieth\Desktop\CGM_Project\CGM Analytics.xlsx"  # Adjust if needed
 sheet_name = 'Full List'
 
 # Read the main data
@@ -85,7 +85,7 @@ pivot_df = grouped.pivot_table(
 # ---------------------------
 # Save both sheets to Excel
 # ---------------------------
-output_path = r"C:\Users\kyleh\Desktop\CGM_Project\CGM_Patient_Analytics_Output.xlsx"
+output_path = r"C:\Users\jordanspieth\Desktop\CGM_Project\CGM_Patient_Analytics_Output.xlsx"
 with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
     result_df_with_summary.to_excel(writer, sheet_name='Detailed Report', index=False)
     pivot_df.to_excel(writer, sheet_name='Monthly Responsibility', index=False)
