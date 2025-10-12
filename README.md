@@ -43,7 +43,7 @@ This data is essential to identify what has gone out (billed), what has come in 
 
 - Reduced from ~15k rows to **244 rows × 14 columns** of key CGM patient data.  
 - Patient Responsibility was defined as:  
-- Company still awaits **>50% ($317.k)** of expected funds in patient responsibility.  
+- Company still awaits **>50% ($31.7k)** of expected funds in patient responsibility.  
 - **44% ($24.5k)** of billed patient payments remain outstanding.  
 - Current successful payment ratio ≈ **56:100**.  
 - Industry context: ~55% of invoices are paid late; 22% of businesses expect late payments to persist.  
