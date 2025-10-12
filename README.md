@@ -51,11 +51,11 @@ This data is essential to identify what has gone out (billed), what has come in 
 `Patient Responsibility = [Invoice Allow Amount - Invoice Detail Payments]`
 
 ### Calculated Totals
-- **Patient Responsibility Total:** $317k  
-- **Invoice Detail Charge Total:** $602k  
-- **Invoice Detail Allow Total:** $562k  
-- **Invoice Detail Payments:** $245k  
-- **Invoice Detail Balance:** $201k  
+- **Patient Responsibility Total:** $31.7k  
+- **Invoice Detail Charge Total:** $60.2k  
+- **Invoice Detail Allow Total:** $56.2k  
+- **Invoice Detail Payments:** $24.5k  
+- **Invoice Detail Balance:** $20.1k  
 
 ---
 
