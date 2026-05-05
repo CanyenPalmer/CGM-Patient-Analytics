@@ -40,3 +40,53 @@ Developed a Python-based data pipeline to process and restructure raw invoice da
 
 ```python
 Patient_Responsibility = Invoice_Allow_Amount - Invoice_Detail_Payments
+```
+
+- Filtered and isolated CGM patient records  
+- Aggregated results by patient and by month  
+- Output structured datasets for downstream analysis  
+
+---
+
+## Results
+
+- Reduced dataset from ~15,000 rows to **244 rows × 14 columns** of relevant CGM patient data  
+- Identified **$31.7K in total patient responsibility**  
+- Found **$24.5K in outstanding payments**  
+- Observed payment completion ratio of approximately **56%**  
+
+### Financial Summary:
+- Total Charges: $60.2K  
+- Allowed Amount: $56.2K  
+- Payments Received: $24.5K  
+- Outstanding Balance: $20.1K  
+
+---
+
+## Business Impact
+
+This analysis provided:
+- Clear visibility into **revenue leakage**  
+- A structured method to track **patient-level financial responsibility**  
+- Actionable insights to prioritize **high-risk, unpaid invoices**  
+
+The output enabled more informed financial decision-making and supported improvements in billing and collection workflows.
+
+---
+
+## Tools & Technologies
+
+- Python (pandas)  
+- Excel (validation and pivot analysis)  
+- Brightree reporting system  
+- CSV-based ETL workflow  
+
+---
+
+## Next Steps
+
+- Extend analysis with predictive modeling to estimate payment likelihood  
+- Identify high-risk patient segments using clustering or regression  
+- Integrate outputs into dashboards for real-time financial tracking  
+
+---
