@@ -83,10 +83,3 @@ The output enabled more informed financial decision-making and supported improve
 
 ---
 
-## Next Steps
-
-- Extend analysis with predictive modeling to estimate payment likelihood  
-- Identify high-risk patient segments using clustering or regression  
-- Integrate outputs into dashboards for real-time financial tracking  
-
----
