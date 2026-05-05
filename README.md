@@ -1,4 +1,4 @@
-# CGM-Patient-Analytics
+# CGM Patient Analytics
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/CanyenPalmer/CGM-Patient-Analytics)
 ![GitHub repo size](https://img.shields.io/github/repo-size/CanyenPalmer/CGM-Patient-Analytics)
@@ -7,63 +7,36 @@
 
 ---
 
-## Project Overview
+## Overview
 
-Our CEO needs some in-depth research on CGM patient payments to understand what has been billed versus what has actually been received, especially since billing for patients has not yet occurred this year.  
+This project analyzes CGM (Continuous Glucose Monitor) patient billing data to identify discrepancies between billed amounts, received payments, and outstanding patient responsibility.
 
-For each patient, the following details were required per Date of Service (DOS):  
-- **Amount Billed**  
-- **Insurance** billed  
-- **Amount Paid** by insurance or patient  
-- **Amount Denied**  
-- **Patient Responsibility** (calculated if not directly reported)  
+The objective was to transform fragmented invoice data into a structured analytical system capable of uncovering revenue gaps and supporting financial decision-making.
 
-This data is essential to identify what has gone out (billed), what has come in (paid), and what each patient technically owes per month.
+**Key Outcome:**  
+Identified over **$30,000 in unpaid patient responsibility** and provided visibility into billing inefficiencies across the revenue cycle.
 
 ---
 
-## Methods
+## Problem
 
-1. Ran an ad-hoc Brightree report to obtain invoice data.  
-   - ~15,000 rows × 25 columns initially.  
-2. Processed CSV output in Excel for initial inspection.  
-3. Built a Python model to:  
-   - Isolate CGM patient invoices.  
-   - Create a calculated **Patient Responsibility** variable.  
-   - Clean disorganized invoice data into usable format.  
-   - Output results into a new CSV file.  
-4. Created a secondary model to:  
-   - Aggregate patient responsibility **month-by-month**.  
-   - Include **totals** for easier financial analysis.  
-5. Used Excel Pivot Tables on the output for further exploration.  
+The organization lacked clear visibility into:
+- What had been billed vs. what had been paid  
+- Outstanding patient responsibility  
+- Monthly trends in patient payments  
+
+Data was exported from Brightree but remained unstructured, making it difficult to extract meaningful financial insights.
 
 ---
 
-## Conclusions
+## Approach
 
-- Reduced from ~15k rows to **244 rows × 14 columns** of key CGM patient data.  
-- Patient Responsibility was defined as:  
-- Company still awaits **>50% ($31.7k)** of expected funds in patient responsibility.  
-- **44% ($24.5k)** of billed patient payments remain outstanding.  
-- Current successful payment ratio ≈ **56:100**.  
-- Industry context: ~55% of invoices are paid late; 22% of businesses expect late payments to persist.  
+Developed a Python-based data pipeline to process and restructure raw invoice data into a usable analytical format.
 
-`Patient Responsibility = [Invoice Allow Amount - Invoice Detail Payments]`
+### Workflow:
+- Extracted invoice data via Brightree ad-hoc reporting (~15,000 rows × 25 columns)  
+- Cleaned and transformed data using Python (pandas)  
+- Engineered a **Patient Responsibility** variable:  
 
-### Calculated Totals
-- **Patient Responsibility Total:** $31.7k  
-- **Invoice Detail Charge Total:** $60.2k  
-- **Invoice Detail Allow Total:** $56.2k  
-- **Invoice Detail Payments:** $24.5k  
-- **Invoice Detail Balance:** $20.1k  
-
----
-
-## Recommendations / Next Steps
-
-1. Expand analysis with **predictive modeling, accuracy testing, and visualizations** (charts, graphs, dashboards).  
-2. Prioritize invoices with **highest charges** but **lowest payments** to reduce largest risks first.  
-3. Identify patients with recurring patient responsibility over time to detect flat-rate expense contributors.  
-4. Explore regression or clustering methods to uncover additional payment trends and risk groups.  
-
-
+```python
+Patient_Responsibility = Invoice_Allow_Amount - Invoice_Detail_Payments
